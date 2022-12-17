@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="md3-client-app" />
+        <module name="md3-client-service" />
+        <module name="md5-api-gateway" />
+        <module name="md1-service-discovery" />
+        <module name="md2-registration-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="md1-service-discovery" target="1.8" />
+      <module name="md2-registration-service" target="1.8" />
+      <module name="md3-client-app" target="1.8" />
+      <module name="md3-client-service" target="1.8" />
+      <module name="md4-load-balancer" target="1.8" />
+      <module name="md5-api-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="md1-service-discovery" options="-parameters" />
+      <module name="md2-registration-service" options="-parameters" />
+      <module name="md3-client-app" options="-parameters" />
+      <module name="md3-client-service" options="-parameters" />
+      <module name="md4-load-balancer" options="-parameters" />
+      <module name="md5-api-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

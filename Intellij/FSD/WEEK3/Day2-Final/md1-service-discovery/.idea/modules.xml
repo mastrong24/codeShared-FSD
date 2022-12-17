@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/md1-service-discovery/md1-service-discovery.iml" filepath="$PROJECT_DIR$/md1-service-discovery/md1-service-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../md2-registration-service/md2-registration-service.iml" filepath="$PROJECT_DIR$/../md2-registration-service/md2-registration-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../md3-client-app/md3-client-app.iml" filepath="$PROJECT_DIR$/../md3-client-app/md3-client-app.iml" />
+    </modules>
+  </component>
+</project>
